@@ -1,0 +1,43 @@
+.gallery{
+	position: relative;
+}
+.zoom{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(50%,50);
+}
+.banner-section{
+	position: relative;
+}
+.banner-section .container{
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	height: 100%;
+	width: 100%;
+
+}
+.banner-section h1{
+	font-size: 50px;
+	color: #fff;
+	font-weight: 600;
+}
+#particles-js{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/*scroll effect in menu custom coding*/
+.navbar{
+	transition: all 0.3s ease;
+	background-color: blue !important;
+}
+.navbarColor{
+	background-color: yellow !important;
+	padding: 0px;
+}
+/*scroll effect in menu custom coding*/
